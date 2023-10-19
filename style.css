@@ -1,67 +1,41 @@
-/* body {
-    background-color: black;
-} */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto&display=swap');
 
-
-
-/* .parallax {
-background-image: url("image/final-1.jpg");
-
-
-min-height: 700px;
-background-attachment: fixed;
-
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+body {
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-*/
 .parallax-1 {
-    /* The image used */
-    background-image: url("image/Education/backgrpund.png");
-
-    /* Set a specific height */
+    background-image: url("img/backgrpund.png");
     height: 500px;
-    /* Create the parallax scrolling effect */
     background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
 .parallax-2 {
-    /* The image used */
-    background-image: url("image/contact.jpg");
-
-    /* Set a specific height */
-
+    background-image: url("img/contact.jpg");
     height: 500px;
-    /* Create the parallax scrolling effect */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .parallax-3 {
-    /* The image used */
-    background-image: url("image/Gallery/bg.jpg");
-    /* Set a specific height */
+    background-image: url("img/20.jpg");
     min-height: 700px;
-    background-attachment: fixed;
-    /* Create the parallax scrolling effect */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .parallax-4 {
-    /* The image used */
-    background-image: url("image/EXperiemce/bg-1.jpg");
-    /* Set a specific height */
+
+    background-image: url("img/bg-1.jpg");
     min-height: 500px;
     background-attachment: fixed;
-    /* Create the parallax scrolling effect */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,6 +49,6 @@ background-size: cover;
     color: blue;
 }
 
-.logo-margin{
+.logo-margin {
     margin-top: -50px;
 }
